@@ -1,0 +1,14 @@
+[project]
+name = "chinese-remainder-theorem"
+version = "0.1.0"
+description = "Given pairwise-coprime moduli and residues, returns the unique solution modulo the product using the extended Euclidean algorithm."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
