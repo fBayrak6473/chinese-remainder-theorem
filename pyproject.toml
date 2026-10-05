@@ -1,6 +1,6 @@
 [project]
 name = "chinese-remainder-theorem"
-version = "0.1.0"
+version = "0.1.1"
 description = "Given pairwise-coprime moduli and residues, returns the unique solution modulo the product using the extended Euclidean algorithm."
 requires-python = ">=3.10"
 dependencies = []
